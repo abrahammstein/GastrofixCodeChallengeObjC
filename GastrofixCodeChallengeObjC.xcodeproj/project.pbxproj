@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53416AA71C208E0600001BC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53416AA61C208E0600001BC6 /* main.m */; };
+		53416AAA1C208E0600001BC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53416AA91C208E0600001BC6 /* AppDelegate.m */; };
+		53416AB01C208E0600001BC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53416AAE1C208E0600001BC6 /* Main.storyboard */; };
+		53416AB31C208E0600001BC6 /* GastrofixCodeChallengeObjC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 53416AB11C208E0600001BC6 /* GastrofixCodeChallengeObjC.xcdatamodeld */; };
+		53416AB51C208E0600001BC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53416AB41C208E0600001BC6 /* Assets.xcassets */; };
+		53416AB81C208E0600001BC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53416AB61C208E0600001BC6 /* LaunchScreen.storyboard */; };
+		53416AC61C208FA900001BC6 /* SyncSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 53416AC51C208FA900001BC6 /* SyncSingleton.m */; };
+		53416ACB1C20921B00001BC6 /* FlickrPhoto+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 53416AC81C20921B00001BC6 /* FlickrPhoto+CoreDataProperties.m */; };
+		53416ACC1C20921B00001BC6 /* FlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 53416ACA1C20921B00001BC6 /* FlickrPhoto.m */; };
+		53416ACF1C20D15A00001BC6 /* 23477873225_c4ddf1eb7e_m.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53416ACE1C20D15A00001BC6 /* 23477873225_c4ddf1eb7e_m.jpg */; };
+		53416AD41C20D2BF00001BC6 /* FlickrTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53416AD31C20D2BF00001BC6 /* FlickrTableViewController.m */; };
+		53416AD71C20D2F000001BC6 /* FlickrTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53416AD61C20D2F000001BC6 /* FlickrTableViewCell.m */; };
+		53416ADB1C20D3D900001BC6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53416ADA1C20D3D900001BC6 /* DetailViewController.m */; };
+		53416ADD1C20FBBB00001BC6 /* abrahamAvatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53416ADC1C20FBBB00001BC6 /* abrahamAvatar.jpg */; };
+		75CB9623D1B7CBF4743BC35F /* libPods-GastrofixCodeChallengeObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A0948B2A1980BCA009280E /* libPods-GastrofixCodeChallengeObjC.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D69EA19734E2C66551C922F /* Pods-GastrofixCodeChallengeObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GastrofixCodeChallengeObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-GastrofixCodeChallengeObjC/Pods-GastrofixCodeChallengeObjC.release.xcconfig"; sourceTree = "<group>"; };
+		34A0948B2A1980BCA009280E /* libPods-GastrofixCodeChallengeObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GastrofixCodeChallengeObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53416AA21C208E0600001BC6 /* GastrofixCodeChallengeObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GastrofixCodeChallengeObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53416AA61C208E0600001BC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53416AA81C208E0600001BC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53416AA91C208E0600001BC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53416AAF1C208E0600001BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53416AB21C208E0600001BC6 /* GastrofixCodeChallengeObjC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GastrofixCodeChallengeObjC.xcdatamodel; sourceTree = "<group>"; };
+		53416AB41C208E0600001BC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53416AB71C208E0600001BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53416AB91C208E0600001BC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53416AC41C208FA900001BC6 /* SyncSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncSingleton.h; sourceTree = "<group>"; };
+		53416AC51C208FA900001BC6 /* SyncSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncSingleton.m; sourceTree = "<group>"; };
+		53416AC71C20921B00001BC6 /* FlickrPhoto+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FlickrPhoto+CoreDataProperties.h"; sourceTree = "<group>"; };
+		53416AC81C20921B00001BC6 /* FlickrPhoto+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FlickrPhoto+CoreDataProperties.m"; sourceTree = "<group>"; };
+		53416AC91C20921B00001BC6 /* FlickrPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhoto.h; sourceTree = "<group>"; };
+		53416ACA1C20921B00001BC6 /* FlickrPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhoto.m; sourceTree = "<group>"; };
+		53416ACE1C20D15A00001BC6 /* 23477873225_c4ddf1eb7e_m.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 23477873225_c4ddf1eb7e_m.jpg; sourceTree = "<group>"; };
+		53416AD21C20D2BF00001BC6 /* FlickrTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrTableViewController.h; sourceTree = "<group>"; };
+		53416AD31C20D2BF00001BC6 /* FlickrTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrTableViewController.m; sourceTree = "<group>"; };
+		53416AD51C20D2F000001BC6 /* FlickrTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrTableViewCell.h; sourceTree = "<group>"; };
+		53416AD61C20D2F000001BC6 /* FlickrTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrTableViewCell.m; sourceTree = "<group>"; };
+		53416AD91C20D3D900001BC6 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		53416ADA1C20D3D900001BC6 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		53416ADC1C20FBBB00001BC6 /* abrahamAvatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abrahamAvatar.jpg; sourceTree = "<group>"; };
+		A2C5A81B9A5F0E48B2900670 /* Pods-GastrofixCodeChallengeObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GastrofixCodeChallengeObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GastrofixCodeChallengeObjC/Pods-GastrofixCodeChallengeObjC.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53416A9F1C208E0600001BC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75CB9623D1B7CBF4743BC35F /* libPods-GastrofixCodeChallengeObjC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01E075DCD45B0ADACB8C2D20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34A0948B2A1980BCA009280E /* libPods-GastrofixCodeChallengeObjC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53416A991C208E0600001BC6 = {
+			isa = PBXGroup;
+			children = (
+				53416AA41C208E0600001BC6 /* GastrofixCodeChallengeObjC */,
+				53416AA31C208E0600001BC6 /* Products */,
+				B86A8CAD51F42BCB20041F6A /* Pods */,
+				01E075DCD45B0ADACB8C2D20 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53416AA31C208E0600001BC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53416AA21C208E0600001BC6 /* GastrofixCodeChallengeObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53416AA41C208E0600001BC6 /* GastrofixCodeChallengeObjC */ = {
+			isa = PBXGroup;
+			children = (
+				53416ACD1C20D14800001BC6 /* helpImage */,
+				53416AC21C208F8000001BC6 /* Data Model */,
+				53416ABF1C208E1400001BC6 /* ViewControllers */,
+				53416AA81C208E0600001BC6 /* AppDelegate.h */,
+				53416AA91C208E0600001BC6 /* AppDelegate.m */,
+				53416AAE1C208E0600001BC6 /* Main.storyboard */,
+				53416AB41C208E0600001BC6 /* Assets.xcassets */,
+				53416AB61C208E0600001BC6 /* LaunchScreen.storyboard */,
+				53416AB91C208E0600001BC6 /* Info.plist */,
+				53416AA51C208E0600001BC6 /* Supporting Files */,
+			);
+			path = GastrofixCodeChallengeObjC;
+			sourceTree = "<group>";
+		};
+		53416AA51C208E0600001BC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53416AA61C208E0600001BC6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53416ABF1C208E1400001BC6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				53416AD81C20D39300001BC6 /* DetailViewController */,
+				53416AD01C20D29700001BC6 /* FlickrTableViewController */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		53416AC21C208F8000001BC6 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				53416AC31C208F8F00001BC6 /* Managed Objects */,
+				53416AB11C208E0600001BC6 /* GastrofixCodeChallengeObjC.xcdatamodeld */,
+				53416AC41C208FA900001BC6 /* SyncSingleton.h */,
+				53416AC51C208FA900001BC6 /* SyncSingleton.m */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		53416AC31C208F8F00001BC6 /* Managed Objects */ = {
+			isa = PBXGroup;
+			children = (
+				53416AC71C20921B00001BC6 /* FlickrPhoto+CoreDataProperties.h */,
+				53416AC81C20921B00001BC6 /* FlickrPhoto+CoreDataProperties.m */,
+				53416AC91C20921B00001BC6 /* FlickrPhoto.h */,
+				53416ACA1C20921B00001BC6 /* FlickrPhoto.m */,
+			);
+			name = "Managed Objects";
+			sourceTree = "<group>";
+		};
+		53416ACD1C20D14800001BC6 /* helpImage */ = {
+			isa = PBXGroup;
+			children = (
+				53416ADC1C20FBBB00001BC6 /* abrahamAvatar.jpg */,
+				53416ACE1C20D15A00001BC6 /* 23477873225_c4ddf1eb7e_m.jpg */,
+			);
+			name = helpImage;
+			sourceTree = "<group>";
+		};
+		53416AD01C20D29700001BC6 /* FlickrTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				53416AD11C20D29C00001BC6 /* FlickrCell */,
+				53416AD21C20D2BF00001BC6 /* FlickrTableViewController.h */,
+				53416AD31C20D2BF00001BC6 /* FlickrTableViewController.m */,
+			);
+			name = FlickrTableViewController;
+			sourceTree = "<group>";
+		};
+		53416AD11C20D29C00001BC6 /* FlickrCell */ = {
+			isa = PBXGroup;
+			children = (
+				53416AD51C20D2F000001BC6 /* FlickrTableViewCell.h */,
+				53416AD61C20D2F000001BC6 /* FlickrTableViewCell.m */,
+			);
+			name = FlickrCell;
+			sourceTree = "<group>";
+		};
+		53416AD81C20D39300001BC6 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				53416AD91C20D3D900001BC6 /* DetailViewController.h */,
+				53416ADA1C20D3D900001BC6 /* DetailViewController.m */,
+			);
+			name = DetailViewController;
+			sourceTree = "<group>";
+		};
+		B86A8CAD51F42BCB20041F6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2C5A81B9A5F0E48B2900670 /* Pods-GastrofixCodeChallengeObjC.debug.xcconfig */,
+				1D69EA19734E2C66551C922F /* Pods-GastrofixCodeChallengeObjC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53416AA11C208E0600001BC6 /* GastrofixCodeChallengeObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53416ABC1C208E0600001BC6 /* Build configuration list for PBXNativeTarget "GastrofixCodeChallengeObjC" */;
+			buildPhases = (
+				C29F9D31B37E2A5DE4C57E2C /* Check Pods Manifest.lock */,
+				53416A9E1C208E0600001BC6 /* Sources */,
+				53416A9F1C208E0600001BC6 /* Frameworks */,
+				53416AA01C208E0600001BC6 /* Resources */,
+				9BA5B9B33190A3744A2A48FA /* Embed Pods Frameworks */,
+				ECCF8E24FE123490F58C3161 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GastrofixCodeChallengeObjC;
+			productName = GastrofixCodeChallengeObjC;
+			productReference = 53416AA21C208E0600001BC6 /* GastrofixCodeChallengeObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53416A9A1C208E0600001BC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Gastrofix;
+				TargetAttributes = {
+					53416AA11C208E0600001BC6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 53416A9D1C208E0600001BC6 /* Build configuration list for PBXProject "GastrofixCodeChallengeObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53416A991C208E0600001BC6;
+			productRefGroup = 53416AA31C208E0600001BC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53416AA11C208E0600001BC6 /* GastrofixCodeChallengeObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53416AA01C208E0600001BC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53416AB81C208E0600001BC6 /* LaunchScreen.storyboard in Resources */,
+				53416ADD1C20FBBB00001BC6 /* abrahamAvatar.jpg in Resources */,
+				53416ACF1C20D15A00001BC6 /* 23477873225_c4ddf1eb7e_m.jpg in Resources */,
+				53416AB51C208E0600001BC6 /* Assets.xcassets in Resources */,
+				53416AB01C208E0600001BC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9BA5B9B33190A3744A2A48FA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GastrofixCodeChallengeObjC/Pods-GastrofixCodeChallengeObjC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C29F9D31B37E2A5DE4C57E2C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ECCF8E24FE123490F58C3161 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GastrofixCodeChallengeObjC/Pods-GastrofixCodeChallengeObjC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53416A9E1C208E0600001BC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53416AD71C20D2F000001BC6 /* FlickrTableViewCell.m in Sources */,
+				53416AD41C20D2BF00001BC6 /* FlickrTableViewController.m in Sources */,
+				53416ACC1C20921B00001BC6 /* FlickrPhoto.m in Sources */,
+				53416AAA1C208E0600001BC6 /* AppDelegate.m in Sources */,
+				53416ADB1C20D3D900001BC6 /* DetailViewController.m in Sources */,
+				53416AB31C208E0600001BC6 /* GastrofixCodeChallengeObjC.xcdatamodeld in Sources */,
+				53416AC61C208FA900001BC6 /* SyncSingleton.m in Sources */,
+				53416ACB1C20921B00001BC6 /* FlickrPhoto+CoreDataProperties.m in Sources */,
+				53416AA71C208E0600001BC6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53416AAE1C208E0600001BC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53416AAF1C208E0600001BC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53416AB61C208E0600001BC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53416AB71C208E0600001BC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53416ABA1C208E0600001BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53416ABB1C208E0600001BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53416ABD1C208E0600001BC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2C5A81B9A5F0E48B2900670 /* Pods-GastrofixCodeChallengeObjC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GastrofixCodeChallengeObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gastrofix.GastrofixCodeChallengeObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53416ABE1C208E0600001BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D69EA19734E2C66551C922F /* Pods-GastrofixCodeChallengeObjC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GastrofixCodeChallengeObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gastrofix.GastrofixCodeChallengeObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53416A9D1C208E0600001BC6 /* Build configuration list for PBXProject "GastrofixCodeChallengeObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53416ABA1C208E0600001BC6 /* Debug */,
+				53416ABB1C208E0600001BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53416ABC1C208E0600001BC6 /* Build configuration list for PBXNativeTarget "GastrofixCodeChallengeObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53416ABD1C208E0600001BC6 /* Debug */,
+				53416ABE1C208E0600001BC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		53416AB11C208E0600001BC6 /* GastrofixCodeChallengeObjC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				53416AB21C208E0600001BC6 /* GastrofixCodeChallengeObjC.xcdatamodel */,
+			);
+			currentVersion = 53416AB21C208E0600001BC6 /* GastrofixCodeChallengeObjC.xcdatamodel */;
+			path = GastrofixCodeChallengeObjC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 53416A9A1C208E0600001BC6 /* Project object */;
+}
